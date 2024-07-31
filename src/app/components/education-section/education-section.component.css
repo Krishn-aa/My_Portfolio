@@ -45,21 +45,23 @@
   gap: 2rem;
 }
 
-@media (min-width: 992px) {
-  .education-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+
 
 .animation-container {
   display: flex;
   justify-content: center;
-  align-items: start;
 }
 
 .animation-wrapper {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+app-lottie-animation{
+  width: 500px;
+  height: 500px;
 }
 
 .education-list {
@@ -146,4 +148,17 @@
 }
 .bi-person-workspace{
   font-size: 30px;
+}
+
+@media (min-width: 992px) {
+  .education-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 560px) {
+  app-lottie-animation{
+    width: 350px;
+    height: 350px;
+
+  }
 }

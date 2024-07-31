@@ -66,6 +66,7 @@
 .description-text {
   color: #d1d5db;
   font-size: 0.875rem;
+  text-align: justify;
 }
 
 @media (min-width: 992px) {

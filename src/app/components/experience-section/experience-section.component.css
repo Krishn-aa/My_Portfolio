@@ -55,12 +55,19 @@
 .animation-container {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: start
 }
 
 .animation-wrapper {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+app-lottie-animation{
+  width: 500px;
+  height: 500px;
 }
 
 .experience-list {
@@ -141,4 +148,11 @@
 }
 .bi-person-workspace{
   font-size: 30px;
+}
+
+@media (max-width: 560px) {
+  app-lottie-animation{
+    width: 350px;
+    height: 350px;
+  }
 }

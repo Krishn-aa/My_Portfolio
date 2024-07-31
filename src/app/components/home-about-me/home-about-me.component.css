@@ -7,13 +7,6 @@
   padding: 2rem 0;
 }
 
-.hero-image {
-  position: absolute;
-  top: -98px;
-  z-index: 0;
-  width: 100%;
-}
-
 .hero-content {
   display: grid;
   grid-template-columns: 1fr;
@@ -274,5 +267,19 @@ pre {
   .hero-title {
     font-size: 2.6rem;
     line-height: 3.5rem;
+  }
+}
+@media (max-width: 400px){
+  .button-group {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .resume-link{
+    font-size: 0.8rem;
+  }
+  .contact-button{
+    font-size: 0.8rem;
   }
 }

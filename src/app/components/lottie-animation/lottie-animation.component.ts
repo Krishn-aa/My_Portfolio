@@ -19,7 +19,7 @@ export class LottieAnimationComponent implements AfterViewInit {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      path: this.animationPath // Path to your animation file
+      path: this.animationPath
     });
   }
 }

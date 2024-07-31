@@ -61,16 +61,16 @@
   position: sticky;
 }
 #sticky-card-1 {
-  top:3rem;
+  top: 3rem;
 }
 #sticky-card-2 {
-  top:7rem;
+  top: 7rem;
 }
 #sticky-card-3 {
-  top:11rem;
+  top: 11rem;
 }
 #sticky-card-4 {
-  top:15rem;
+  top: 15rem;
 }
 
 .project-card-container {
