@@ -7,8 +7,40 @@ export class SkillsDataService {
 
   skillsData = [
     {
+      name: '.NET',
+      img:'/assets/svg/skills/microsoft_.net.svg'
+    },
+    {
+      name: 'Angular',
+      img:'/assets/svg/skills/angular.svg'
+    },
+    {
+      name: 'Java',
+      img:'/assets/svg/skills/java.svg'
+    },
+    {
+      name: 'C++',
+      img:'/assets/svg/skills/cplusplus.svg'
+    },
+    {
       name: 'Python',
       img:'/assets/svg/skills/python.svg'
+    },
+    {
+      name: 'C#',
+      img:'/assets/svg/skills/csharp.svg'
+    },
+    {
+      name: 'Nodejs',
+      img:'/assets/svg/skills/nodejs.svg'
+    },
+    {
+      name: 'Mongo',
+      img:'/assets/svg/skills/mongoDB.svg'
+    },
+    {
+      name: 'Spring',
+      img:'/assets/svg/skills/spring.svg'
     },
     {
       name: 'HTML',
@@ -27,40 +59,24 @@ export class SkillsDataService {
       img:'/assets/svg/skills/typescript.svg'
     },
     {
-      name: 'Angular',
-      img:'/assets/svg/skills/angular.svg'
-    },
-    {
-      name: 'C#',
-      img:'/assets/svg/skills/csharp.svg'
-    },
-    {
-      name: '.NET',
-      img:'/assets/svg/skills/microsoft_.net.svg'
-    },
-    {
-      name: 'PHP',
-      img:'/assets/svg/skills/php.svg'
-    },
-    {
       name: 'MySQL',
       img:'/assets/svg/skills/mysql.svg'
     },
     {
-      name: 'PowerBI',
-      img:'/assets/svg/skills/power-bi.svg'
+      name: 'Git',
+      img:'/assets/svg/skills/git.svg'
     },
     {
       name: 'Bootstrap',
       img:'/assets/svg/skills/bootstrap.svg'
     },
     {
-      name: 'Figma',
-      img:'/assets/svg/skills/figma.svg'
+      name: 'Blender',
+      img:'/assets/svg/skills/blender.svg'
     },
     {
-      name: 'Shopify',
-      img:'/assets/svg/skills/shopify.svg'
-    }
+      name: 'Unity',
+      img:'/assets/svg/skills/unity.svg'
+    },
   ]
 }
