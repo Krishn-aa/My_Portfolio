@@ -11,7 +11,7 @@ export class PersonalDataService {
     address: 'Madhapur, Hyderabad, Telangana, India',
     profile:'assets/image/profile.png',
     designation: 'Software Developer',
-    description: "My name is Krishna Anand. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+    description: "I am Krishna Anand, a dedicated and enthusiastic programmer with a strong passion for learning and exploring new technologies. My expertise lies in problem-solving and web application development, with a core focus on JavaScript, which I use across multiple development stacks. I am a quick learner with a self-driven approach, always eager to expand my knowledge and contribute to making the web more accessible and dynamic. I am currently open to job opportunities that align with my skills and professional interests.",
     github: 'https://github.com/Krishn-aa',
     linkedIn: 'https://linkedin.com/in/krishna-anand-99ba13202/',
     leetcode: 'https://leetcode.com/u/code_krishnaa/',
